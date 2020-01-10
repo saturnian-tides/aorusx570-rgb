@@ -1,4 +1,5 @@
-#Aorus570-RGB
+# Aorus570-RGB
+
 This is a really barebones interface I cobbled together to allow
 access to setting RGB values on Aorus X570 motherboards. It may
 work on other Aorus or Gigabyte motherboards as well. In this case
