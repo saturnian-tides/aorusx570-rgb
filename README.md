@@ -9,7 +9,7 @@ I tested with an Aorus Pro Wifi on Ubuntu 18.04. **Use at your own risk!**
 
 Requirements:
 - python3
-- cython-hidapi (make sure to install "hid", not "hidapi")
+- cython-hidapi (make sure to install "hidapi", not "hid")
 - either root access or permissions to enable regular users to send
 SET_REPORTs over HID
 
