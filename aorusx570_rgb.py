@@ -27,7 +27,6 @@ class AorusRGBController:
         assert isinstance(zone,str), "Zone should be a string"
         assert zone in zone_dict, "Provided zone is not in zone_dict"
 
-
         if (r < 0 or r > 255):
             print("r is out of bounds [0-255]")
             return
@@ -54,7 +53,6 @@ class AorusRGBController:
         except:
             print("Failed to set rgb! Check USB permissions or run as root!")
 
-    
 if __name__ == "__main__":
     print("Please import this into your own application.")
     exit()
